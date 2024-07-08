@@ -1,0 +1,77 @@
+/*1300px/16 = 81.25rem*/
+
+@media(max-width: 81rem){
+    html{
+        font-size: 56.25%;
+    }
+}
+
+/*1184/16 = 74rem*/
+
+@media (max-width: 74rem) {
+    .hero_text{
+        text-align: center;
+    }
+    .grid_col-4{
+        grid-template-columns: repeat(2,1fr);
+        margin: 0 4.8rem;
+    }
+
+    .team_text-box{
+        text-align: center;
+        padding: 0,3.6rem;
+    }
+
+    .grid_col-3{
+        grid-template-columns: repeat(2,1fr);
+        padding: 0,4.8rem;
+    }
+}
+
+/*984/16=59rem*/
+
+@media(max-width: 59rem){
+    html{
+        font-size: 50%;
+    }
+}
+
+ /* 704/16 = 44rem*/
+
+ @media(max-width: 44rem){
+    .grid_col-4, 
+    .grid_col-3{
+        grid-template-columns: 1fr;
+    }
+
+    .services_text-box{
+        text-align: center;
+    }
+
+    .testimonial_1{
+        flex-direction: column;
+        text-align: center;
+        margin: 0,1.8rem;
+    }
+
+    .footer_text-box{
+      grid-template-columns: 1fr;
+    }
+ }
+
+ /* 480/16 = 30rem */
+
+ @media(max-width: 30rem){
+    .services_text-box{
+        padding: 0,1.8rem;
+    }
+
+    .companies{
+        flex-direction: column;
+        gap: 3.2rem;
+    }
+
+    .client_heading{
+        text-align: center;
+    }
+ }
